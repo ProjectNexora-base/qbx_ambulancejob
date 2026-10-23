@@ -3,7 +3,7 @@ game 'gta5'
 
 description 'qbx_ambulancejob'
 repository 'https://github.com/Qbox-project/qbx_ambulancejob'
-version '1.0.0'
+version '1.0.1'
 
 ox_lib 'locale'
 
@@ -26,6 +26,7 @@ client_scripts {
 }
 
 server_scripts {
+	'server/pn-lib-config.lua',
 	'server/*.lua',
 }
 
